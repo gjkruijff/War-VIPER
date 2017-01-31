@@ -17,3 +17,4 @@ For more on VIPER see [Architecting iOS Apps with VIPER](https://www.objc.io/iss
 
 The original War card game implements the "entire" game application logic in a single function in the View Controller. This function, `dealTapped(_ sender:Any)`, determines the random cards to be displayed, checks who wins, updates the score, _and_ handles the updating of the UI. 
 
+das ist ja doof!!!!!!!!!!!!!!!!!!!!!!!
