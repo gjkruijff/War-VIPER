@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         /** Randomize right number in the range [0..13] */
         let rightNumber = Int(arc4random_uniform(14))
 
-        // Set the right image 
+        // Set the right image
         rightImageView.image = UIImage(named: cardNames[rightNumber])
         
         // Compare the card numbers
