@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This repository contains a re-implementation of the *War* card game, originally from the [Code with Chris](http://codewithchris.com) introduction to Swift. The original implementation uses the MVC design pattern; this reimplementation refactors that code to a VIPER-based design patter. 
+This repository contains a re-implementation of the *War* card game, originally from the [Code with Chris](http://codewithchris.com) introduction to Swift. The original game implementation uses the MVC design pattern; this reimplementation refactors that code to a VIPER-based design pattern. 
 
 The VIPER architecture design pattern separates the view control logic, from the application logic -- addressing the issue of "Massive View Controllers" in the MVC pattern. 
 * The INTERACTOR implements the application logic, manipulating the model objects independently of any UI.  
